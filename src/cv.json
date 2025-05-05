@@ -1,110 +1,161 @@
 {
-    "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Rodrigo Frende",
+    "label": "Front End Developer | UI/UX Focused",
+    "image": "",
+    "email": "rodrigo.frende@gmail.com",
+    "phone": "+54 11 3830 3002",
+    "url": "https://rodrigofrende.com",
+    "summary": "Frontend developer with 5+ years of experience building scalable and responsive applications using Vue.js, Vite, and Tailwind. Passionate about UI/UX design, 3D printing, and side projects that blend creativity and technology.",
+    "location": {
+      "postalCode": "1842",
+      "city": "Monte Grande",
+      "region": "Buenos Aires",
+      "countryCode": "AR"
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rodrigofrende",
+        "url": "https://linkedin.com/in/rodrigofrende"
+      },
+      {
+        "network": "GitHub",
+        "username": "rodrigofrende",
+        "url": "https://github.com/rodrigofrende"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "KIU System Solutions",
+      "position": "Front End Developer",
+      "url": "https://www.linkedin.com/company/kiu-system-solutions/",
+      "startDate": "2024-05",
+      "endDate": "2025-05",
+      "summary": "Working on internal design systems and applications for the travel and aviation industry.",
       "highlights": [
-        "Started the company"
+        "Developed and maintained UI components using Vue 3, Tailwind, and Storybook",
+        "Improved consistency and scalability by integrating Material Design specifications",
+        "Participated in unit testing, CI/CD processes and Gitlab workflows"
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+    },
+    {
+      "name": "Striano",
+      "position": "Front End Developer",
+      "url": "https://www.linkedin.com/company/striano/",
+      "startDate": "2022-04",
+      "endDate": "2024-04",
+      "summary": "Led frontend development for various projects across industries including e-commerce, fintech, and logistics.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Implemented responsive user interfaces with Vue, React, and Bootstrap",
+        "Handled complete development cycles from planning to deployment",
+        "Collaborated with cross-functional teams and supported backend integration"
       ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+    },
+    {
+      "name": "Consensus",
+      "position": "Trainee Full Stack Developer",
+      "url": "https://www.linkedin.com/company/consensusgrouparg/",
+      "startDate": "2019-06",
+      "endDate": "2022-04",
+      "summary": "Entered the tech industry as a trainee and evolved into a proficient full-stack developer.",
+      "highlights": [
+        "Worked on multiple client-facing projects using JavaScript and Java",
+        "Gained hands-on experience with databases, APIs, and deployment pipelines",
+        "Quick learning curve and strong mentorship experience"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto de Formación Técnica (Informal)",
+      "area": "Web Development",
+      "studyType": "Self-Taught / Courses",
+      "startDate": "2018-01",
+      "endDate": "2019-01",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Vue.js and Vuex",
+        "Responsive Web Design",
+        "Git and GitHub"
       ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Vue.js",
+        "Vite",
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "TailwindCSS",
+        "HTML5",
+        "CSS3"
       ]
-    }],
-    "languages": [{
-      "language": "English",
+    },
+    {
+      "name": "Tools & Workflow",
+      "level": "Intermediate",
+      "keywords": [
+        "Storybook",
+        "Git",
+        "GitLab",
+        "Netlify",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "3D Design & Printing",
+      "level": "Intermediate",
+      "keywords": [
+        "Fusion 360",
+        "Ultimaker Cura",
+        "Creality Ender 3 S1"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Creative Projects",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Pokémon-themed apps",
+        "3D Printing",
+        "Photography"
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+    },
+    {
+      "name": "Fitness",
+      "keywords": [
+        "Weightlifting",
+        "Nutrition tracking"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PokéPalette",
+      "startDate": "2025-03",
+      "endDate": "",
+      "description": "A creative tool that generates color palettes based on Pokémon images using color-thief and the PokéAPI.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Extracted dominant colors from Pokémon sprites",
+        "Export palette as Figma-compatible tokens or CSS variables",
+        "Vue 3 + Vite + Tailwind stack"
       ],
-      "url": "https://project.com/"
-    }]
-  }
+      "url": "https://github.com/rodrigofrende/pokepalette"
+    }
+  ]
+}
